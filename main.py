@@ -5,7 +5,7 @@ def main():
     mulai_nomor = int(input("Mulai dari nomor berapa?"))    # ini buat kalo mulai lagi dari 201, 401, dst
     nama_file = input("Nama filenya nanti apa?")            # ini bebas, pokoknya ngikut buat semua
 
-    path = "D:\\tung\\python\\rename\\gambar"
+    path = "D:\\tung\\python\\rename\\ADV"
     for filename in os.listdir(path):
         my_dest = nama_file + str(mulai_nomor) + ".png"
         my_source = path + "/" + filename
